@@ -8,11 +8,10 @@ A simple command-line-based implementation of the classic card game Blackjack. I
 3. `card_handling.py`: Defines essential classes for cards, decks, and hands. Houses all class methods and attributes related to card handling.
 4. `playing_cards.py`: File containing tuples of card-related data (suits and ranks), and a dictionary to map all ranks to an associated value (see game rules).
 
-## How To Play
-1. Run the game by executing the `main.py` file.
-2. The game will prompt you to cash-in with a starting number of chips.
-3. Follow the on-screen instructions to place bets and hit or stand.play successive Blackjack rounds until you either lose all your chips or decide to cash out.
-4. Gameplay includes 
+## Game Objectives
+1. The objective of the game is to get your hand value as close to 21, but not exceed it, otherwise, you **BUST**.
+2. If you decide to stop drawing (**HIT**) more cards, you **STAND** and must beat the dealer's hand value to win.
+3. If you reach a hand value of 21, you don't win immediately; you can still tie (**PUSH**) if the dealer also has or reaches 21 during their turn.
 
 ## Game Rules
 1. Number cards (2-10) are worth their face value and face cards (J, Q, K) are all worth 10 points.
@@ -21,8 +20,13 @@ A simple command-line-based implementation of the classic card game Blackjack. I
 4. The dealer will keep drawing cards if their hand value is below 17. If they bust during this process, you will win the round.
 5. During the player's turn to hit or stand, only the dealer's second card is displayed.
 
-## Game Objectives
-1. The objective of the game is to get your hand value as close to 21, but not exceed it, otherwise, you **BUST**.
-2. If you decide to stop drawing (**HIT**) more cards, you **STAND** and must beat the dealer's hand value to win.
-3. If you reach a hand value of 21, you don't win immediately; you can still tie (**PUSH**) if the dealer also has or reaches 21 during their turn.
+## How To Play
+1. Run the game by executing the `main.py` file.
+2. The game will prompt you to cash-in with a starting number of chips.
+3. Follow the on-screen instructions to place bets and hit or stand.play successive Blackjack rounds until you either lose all your chips or decide to cash out.
+4. Gameplay includes 
+
+
+
+
 
