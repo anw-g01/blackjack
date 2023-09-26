@@ -65,7 +65,7 @@ def main():
     if not game.has_chips():  # 14. game is over if user runs out of chips
         print("\nGame over. You ran out of chips.")
 
-    # GAME OVER
+    # ====== GAME OVER ====== #
     game.display_statistics()  # 15. game statistics are displayed if user quits or loses after at least one game
     print("\nThanks for playing!")
 
