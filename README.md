@@ -1,6 +1,6 @@
 # Blackjack with Python
 
-A simple command-line-based implementation of the classic card game Blackjack. It allows the user to play successive rounds of Blackjack against a computer dealer until they lose all their chips or decide to cash out. The program keeps track of a highly in-depth game statistics displayed after the end of a game.
+A simple command-line-based implementation of the classic card game Blackjack. It allows the user to play successive rounds of Blackjack against a computer dealer until they lose all their chips or decide to cash out. The program keeps track of a highly in-depth game statistics displayed after the end of a game. The current project is a simplified version of Blackjack and does not implement further gameplay options such as splitting pairs or doubling down.
 
 ## Project Files
 1. `main.py`: Orchestrates the entire game by utilizing the defined classes and calling necessary methods to create the classic flow of Blackjack.
