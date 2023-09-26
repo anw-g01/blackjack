@@ -1,10 +1,10 @@
 # Blackjack with Python
 
 ## Project Files
-`main.py`: Orchestrates the entire game by utilizing the defined classes and calling necessary methods to create the classic flow of Blackjack.
-`gameplay.py`: Defines the main blackjack class housing the necessary game logic as well as a chips class for handling betting.
-`card_handling.py`: Defines essential classes for cards, decks, and hands. Houses all class methods and attributes related to card handling.
-`playing_cards.py`: File containing tuples of card-related data (suits and ranks), and a dictionary to map all ranks to an associated value (see game rules).
+1. `main.py`: Orchestrates the entire game by utilizing the defined classes and calling necessary methods to create the classic flow of Blackjack.
+2. `gameplay.py`: Defines the main blackjack class housing the necessary game logic as well as a chips class for handling betting.
+3. `card_handling.py`: Defines essential classes for cards, decks, and hands. Houses all class methods and attributes related to card handling.
+4. `playing_cards.py`: File containing tuples of card-related data (suits and ranks), and a dictionary to map all ranks to an associated value (see game rules).
 
 ## How To Play
 1. Run the game by executing the `main.py` file.
